@@ -16,18 +16,10 @@ namespace Footwear.User
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if(!IsPostBack)
+            if (!IsPostBack)
             {
-                  getProducts();
-
-                //Session["breadCrum"] = "Products";
-                //if (Session["userId"] == null)
-                //{
-                //    Response.Redirect("Login.aspx");
-                //}
-                //else
-                //{
-                //}
+                getCategories();
+                getProducts();
             }
         }
 
@@ -35,7 +27,7 @@ namespace Footwear.User
         {
             con = new SqlConnection(Connection.GetConnectionString());
             cmd = new SqlCommand("Category_Crud", con);
-            cmd.Parameters.AddWithValue("@Action", "SELECT");
+            cmd.Parameters.AddWithValue("@Action", "ACTIVECAT");
             cmd.CommandType = CommandType.StoredProcedure;
             sda = new SqlDataAdapter(cmd);
             dt = new DataTable();
@@ -55,6 +47,75 @@ namespace Footwear.User
             sda.Fill(dt);
             rProducts.DataSource = dt;
             rProducts.DataBind();
+        }
+
+        protected void rProducts_ItemCommand(object source, RepeaterCommandEventArgs e)
+        {
+            if (Session["userId"] != null)
+            {
+                bool isCartItemUpdated = false;
+                int i = isItemExistInCart(Convert.ToInt32(e.CommandArgument));
+                if (i == 0)
+                {
+                    // Adding New Item to Cart
+
+                    con = new SqlConnection(Connection.GetConnectionString());
+                    cmd = new SqlCommand("Cart_Crud", con);
+                    cmd.Parameters.AddWithValue("@Action", "INSERT");
+                    cmd.Parameters.AddWithValue("@ProductId", e.CommandArgument);
+                    cmd.Parameters.AddWithValue("@Quantity", 1);
+                    cmd.Parameters.AddWithValue("@UserId", Session["userId"]);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    try
+                    {
+                        con.Open();
+                        cmd.ExecuteNonQuery();
+
+                    }
+                    catch (Exception ex)
+                    {
+                        Response.Write("<script>alert('Error - " + ex.Message + "');</script>");
+                    }
+                    finally
+                    {
+                        con.Close();
+                    }
+                }
+                else
+                {
+                    // Adding Existing Item to Cart
+                    Utils utils = new Utils();
+                    isCartItemUpdated = utils.updateCartQuantity(i + 1, Convert.ToInt32(e.CommandArgument), 
+                        Convert.ToInt32(Session["userId"]));
+                }
+                lblMsg.Visible = true;
+                lblMsg.Text = "Shoes Added Successsfully in Your Cart";
+                lblMsg.CssClass = "alert alert-success";
+                Response.AddHeader("REFRESH", "1;URL=Cart.aspx");
+            }
+            else
+            {
+                Response.Redirect("Login.aspx");
+            }
+        }
+
+        int isItemExistInCart(int productId)
+        {
+            con = new SqlConnection(Connection.GetConnectionString());
+            cmd = new SqlCommand("Cart_Crud", con);
+            cmd.Parameters.AddWithValue("@Action", "GETBYID");
+            cmd.Parameters.AddWithValue("@ProductId", productId);
+            cmd.Parameters.AddWithValue("@UserId", Session["userId"]);
+            cmd.CommandType = CommandType.StoredProcedure;
+            sda = new SqlDataAdapter(cmd);
+            dt = new DataTable();
+            sda.Fill(dt);
+            int quantity = 0;
+            if(dt.Rows.Count > 0)
+            {
+                quantity = Convert.ToInt32(dt.Rows[0]["Quantity"]);
+            }
+            return quantity;
         }
 
         //public string LowerCase(object obj)

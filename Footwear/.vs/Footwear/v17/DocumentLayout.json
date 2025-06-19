@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08E385F1-FDB5-4479-BD27-D3A00BFDA3E8}|Footwear\\Footwear.csproj|c:\\users\\rohit balani\\desktop\\ic-6\\ic-6 project\\footwear project\\footwear\\footwear\\user\\products.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08E385F1-FDB5-4479-BD27-D3A00BFDA3E8}|Footwear\\Footwear.csproj|c:\\users\\rohit balani\\desktop\\ic-6\\ic-6 project\\footwear project\\footwear\\footwear\\user\\cart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08E385F1-FDB5-4479-BD27-D3A00BFDA3E8}|Footwear\\Footwear.csproj|solutionrelative:footwear\\user\\cart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08E385F1-FDB5-4479-BD27-D3A00BFDA3E8}|Footwear\\Footwear.csproj|C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\footwear\\user\\user.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08E385F1-FDB5-4479-BD27-D3A00BFDA3E8}|Footwear\\Footwear.csproj|solutionrelative:footwear\\user\\user.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08E385F1-FDB5-4479-BD27-D3A00BFDA3E8}|Footwear\\Footwear.csproj|C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\footwear\\user\\user.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{08E385F1-FDB5-4479-BD27-D3A00BFDA3E8}|Footwear\\Footwear.csproj|solutionrelative:footwear\\user\\user.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08E385F1-FDB5-4479-BD27-D3A00BFDA3E8}|Footwear\\Footwear.csproj|C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\footwear\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08E385F1-FDB5-4479-BD27-D3A00BFDA3E8}|Footwear\\Footwear.csproj|solutionrelative:footwear\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08E385F1-FDB5-4479-BD27-D3A00BFDA3E8}|Footwear\\Footwear.csproj|C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\footwear\\user\\products.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08E385F1-FDB5-4479-BD27-D3A00BFDA3E8}|Footwear\\Footwear.csproj|solutionrelative:footwear\\user\\products.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08E385F1-FDB5-4479-BD27-D3A00BFDA3E8}|Footwear\\Footwear.csproj|c:\\users\\rohit balani\\desktop\\ic-6\\ic-6 project\\footwear project\\footwear\\footwear\\user\\products.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{08E385F1-FDB5-4479-BD27-D3A00BFDA3E8}|Footwear\\Footwear.csproj|solutionrelative:footwear\\user\\products.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08E385F1-FDB5-4479-BD27-D3A00BFDA3E8}|Footwear\\Footwear.csproj|c:\\users\\rohit balani\\desktop\\ic-6\\ic-6 project\\footwear project\\footwear\\footwear\\admin\\category.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08E385F1-FDB5-4479-BD27-D3A00BFDA3E8}|Footwear\\Footwear.csproj|solutionrelative:footwear\\admin\\category.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08E385F1-FDB5-4479-BD27-D3A00BFDA3E8}|Footwear\\Footwear.csproj|C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\footwear\\user\\cart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{08E385F1-FDB5-4479-BD27-D3A00BFDA3E8}|Footwear\\Footwear.csproj|solutionrelative:footwear\\user\\cart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,22 +34,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Products.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\Footwear\\User\\Products.aspx.cs",
-              "RelativeDocumentMoniker": "Footwear\\User\\Products.aspx.cs",
-              "ToolTip": "C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\Footwear\\User\\Products.aspx.cs",
-              "RelativeToolTip": "Footwear\\User\\Products.aspx.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAcwDEAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T08:17:10.523Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -45,28 +43,75 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Products.aspx",
-              "DocumentMoniker": "C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\Footwear\\User\\Products.aspx",
-              "RelativeDocumentMoniker": "Footwear\\User\\Products.aspx",
-              "ToolTip": "C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\Footwear\\User\\Products.aspx",
-              "RelativeToolTip": "Footwear\\User\\Products.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-18T08:23:04.765Z",
-              "EditorCaption": ""
+              "Title": "User.Master.cs",
+              "DocumentMoniker": "C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\Footwear\\User\\User.Master.cs",
+              "RelativeDocumentMoniker": "Footwear\\User\\User.Master.cs",
+              "ToolTip": "C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\Footwear\\User\\User.Master.cs",
+              "RelativeToolTip": "Footwear\\User\\User.Master.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:15:00.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Products.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\Footwear\\User\\Products.aspx.cs",
+              "RelativeDocumentMoniker": "Footwear\\User\\Products.aspx.cs",
+              "ToolTip": "C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\Footwear\\User\\Products.aspx.cs",
+              "RelativeToolTip": "Footwear\\User\\Products.aspx.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAIwFwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:12:18.078Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Category.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\Footwear\\Admin\\Category.aspx.cs",
-              "RelativeDocumentMoniker": "Footwear\\Admin\\Category.aspx.cs",
-              "ToolTip": "C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\Footwear\\Admin\\Category.aspx.cs",
-              "RelativeToolTip": "Footwear\\Admin\\Category.aspx.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAowGwAAAAVAAAAAAAAAA==",
+              "Title": "User.Master",
+              "DocumentMoniker": "C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\Footwear\\User\\User.Master",
+              "RelativeDocumentMoniker": "Footwear\\User\\User.Master",
+              "ToolTip": "C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\Footwear\\User\\User.Master",
+              "RelativeToolTip": "Footwear\\User\\User.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-19T13:32:36.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cart.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\Footwear\\User\\Cart.aspx.cs",
+              "RelativeDocumentMoniker": "Footwear\\User\\Cart.aspx.cs",
+              "ToolTip": "C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\Footwear\\User\\Cart.aspx.cs",
+              "RelativeToolTip": "Footwear\\User\\Cart.aspx.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAAKIAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T08:18:54.586Z",
+              "WhenOpened": "2025-06-19T11:17:44.003Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cart.aspx",
+              "DocumentMoniker": "C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\Footwear\\User\\Cart.aspx",
+              "RelativeDocumentMoniker": "Footwear\\User\\Cart.aspx",
+              "ToolTip": "C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\Footwear\\User\\Cart.aspx",
+              "RelativeToolTip": "Footwear\\User\\Cart.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-19T10:45:02.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\Footwear\\Connection.cs",
+              "RelativeDocumentMoniker": "Footwear\\Connection.cs",
+              "ToolTip": "C:\\Users\\Rohit Balani\\Desktop\\IC-6\\IC-6 Project\\Footwear Project\\Footwear\\Footwear\\Connection.cs",
+              "RelativeToolTip": "Footwear\\Connection.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowFIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T10:24:54.29Z"
             }
           ]
         }

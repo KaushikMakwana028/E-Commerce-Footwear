@@ -28,10 +28,13 @@ namespace Footwear.User
             if (Session["userId"] == null)
             {
                 lbLoginOrLogout.Text = "Login";
+                Session["cartCount"] = "0";
             }
             else
             {
                 lbLoginOrLogout.Text = "Logout";
+                Utils utils = new Utils();
+                Session["cartCount"] = utils.cartCount(Convert.ToInt32(Session["userId"])).ToString();
             }
         }
 
