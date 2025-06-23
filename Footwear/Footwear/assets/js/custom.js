@@ -7,9 +7,16 @@ function getYear() {
 
 getYear();
 
-
 // isotope js
 $(window).on('load', function () {
+    var $grid = $(".grid").isotope({
+        itemSelector: ".all",
+        percentPosition: false,
+        masonry: {
+            columnWidth: ".all"
+        }
+    });
+
     $('.filters_menu li').click(function () {
         $('.filters_menu li').removeClass('active');
         $(this).addClass('active');
@@ -17,19 +24,11 @@ $(window).on('load', function () {
         var data = $(this).attr('data-filter');
         $grid.isotope({
             filter: data
-        })
+        });
     });
 
-    var $grid = $(".grid").isotope({
-        itemSelector: ".all",
-        percentPosition: false,
-        masonry: {
-            columnWidth: ".all"
-        }
-    })
-
     $(document).ready(function () {
-        // Read a Pages GET URL variables & return them as an Associative aaray
+        // Read a Pages GET URL variables & return them as an Associative array
         function getUrlVars() {
             var vars = [], hash;
             var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
@@ -54,7 +53,7 @@ $(window).on('load', function () {
                 var data = $(this).attr('data-filter');
                 $grid.isotope({
                     filter: data
-                })
+                });
                 return;
             }
         });
@@ -82,7 +81,6 @@ $(".client_owl-carousel").owlCarousel({
     margin: 0,
     dots: false,
     nav: true,
-    navText: [],
     autoplay: true,
     autoplayHoverPause: true,
     navText: [
@@ -119,14 +117,12 @@ $(".client_owl-carousel").owlCarousel({
         var oldValue = $button.parent().find('input').val();
 
         if ($button.hasClass('inc')) {
-            // var newVal = parseFloat(oldValue) + 1;
             if (oldValue >= 10) {
                 var newVal = parseFloat(oldValue);
             } else {
                 var newVal = parseFloat(oldValue) + 1;
             }
         } else {
-            // Don't allow decrementing below zero
             if (oldValue > 1) {
                 var newVal = parseFloat(oldValue) - 1;
             } else {

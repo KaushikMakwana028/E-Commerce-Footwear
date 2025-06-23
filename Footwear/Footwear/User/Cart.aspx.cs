@@ -140,7 +140,7 @@ namespace Footwear.User
                         int cartQuantity = Convert.ToInt32(_cartQuantity.Value);
                         int productQuantity = Convert.ToInt32(_productQuantity.Value);
 
-                        if (productQuantity > cartQuantity && productQuantity > 2)
+                        if (productQuantity >= cartQuantity)
                         {
                             isTrue = true;
                         }
@@ -195,7 +195,7 @@ namespace Footwear.User
             {
                 if (ListItemType == ListItemType.Footer)
                 {
-                    var footer = new LiteralControl("<tr><td colspan='5'><b>Your Cart is empty.</b><a href='Menu.aspx' class='badge badge-info ml-2'>Continue Shopping</a></td></tr></tbody></table>");
+                    var footer = new LiteralControl("<tr><td colspan='5'><b>Your Cart is empty.</b><a href='Products.aspx' class='badge badge-info ml-2'>Continue Shopping</a></td></tr></tbody></table>");
                     container.Controls.Add(footer);
                 }
             }

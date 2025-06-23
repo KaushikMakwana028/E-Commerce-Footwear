@@ -3,14 +3,14 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
      <script>
-     // For disappearing alert message
-     window.onload = function () {
-         var seconds = 5;
-         setTimeout(function () {
-             document.getElementById("<%=lblMsg.ClientID %>").style.display = "none";
+         // For disappearing alert message
+         window.onload = function () {
+             var seconds = 5;
+             setTimeout(function () {
+                 document.getElementById("<%=lblMsg.ClientID %>").style.display = "none";
          }, seconds * 1000);
-     };
- </script>
+         };
+     </script>
  <script>
      function ImagePreview(input) {
          if (input.files && input.files[0]) {

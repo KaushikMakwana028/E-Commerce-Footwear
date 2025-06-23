@@ -57,3 +57,4 @@ C:\Users\Rohit Balani\Desktop\IC-6\IC-6 Project\Footwear Project\Footwear\Footwe
 C:\Users\Rohit Balani\Desktop\IC-6\IC-6 Project\Footwear Project\Footwear\Footwear\obj\Debug\Footwear.csproj.Up2Date
 C:\Users\Rohit Balani\Desktop\IC-6\IC-6 Project\Footwear Project\Footwear\Footwear\obj\Debug\Footwear.dll
 C:\Users\Rohit Balani\Desktop\IC-6\IC-6 Project\Footwear Project\Footwear\Footwear\obj\Debug\Footwear.pdb
+C:\Users\Rohit Balani\Desktop\IC-6\IC-6 Project\Footwear Project\Footwear\Footwear\bin\itextsharp.dll
